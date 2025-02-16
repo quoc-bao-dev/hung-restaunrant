@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+
+
+:root {
+  --header-height: 56px;
+  --footer-height: 56px;
+}
