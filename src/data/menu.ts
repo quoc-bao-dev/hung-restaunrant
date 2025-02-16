@@ -164,12 +164,12 @@ export const udonMenu = [
         category: "Udon kari",
         description: "Udon nudle v kari polévce",
         items: [
-            { foodName: "Udon kari - Kuřecí", price: 159 },
-            { foodName: "Udon kari - Vepřové", price: 169 },
-            { foodName: "Udon kari - Hovězí", price: 179 },
-            { foodName: "Udon kari - Krevety", price: 189 },
-            { foodName: "Udon kari - Tofu", price: 149 },
-            { foodName: "Udon kari - Zelenina", price: 139 },
+            { foodName: "Kuřecí", price: 159 },
+            { foodName: "Vepřové", price: 169 },
+            { foodName: "Hovězí", price: 179 },
+            { foodName: "Krevety", price: 189 },
+            { foodName: "Tofu", price: 149 },
+            { foodName: "Zelenina", price: 139 },
         ]
     }
 ];
@@ -178,55 +178,55 @@ export const noodleRiceMenu = [
     {
         category: "Pad Thai - Thajské restované nudle",
         items: [
-            { foodName: "Pad Thai - Kuřecí", price: 149 },
-            { foodName: "Pad Thai - Vepřové", price: 159 },
-            { foodName: "Pad Thai - Hovězí", price: 169 },
-            { foodName: "Pad Thai - Krevety", price: 179 },
-            { foodName: "Pad Thai - Tofu", price: 149 },
+            { foodName: "Kuřecí", price: 149 },
+            { foodName: "Vepřové", price: 159 },
+            { foodName: "Hovězí", price: 169 },
+            { foodName: "Krevety", price: 179 },
+            { foodName: "Tofu", price: 149 },
         ]
     },
     {
         category: "Com rang - Restovaná rýže",
         items: [
-            { foodName: "Com rang - Kuřecí", price: 129 },
-            { foodName: "Com rang - Vepřové", price: 139 },
-            { foodName: "Com rang - Hovězí", price: 149 },
-            { foodName: "Com rang - Krevety", price: 159 },
-            { foodName: "Com rang - Tofu", price: 129 },
-            { foodName: "Com rang - Zelenina", price: 105 },
+            { foodName: "Kuřecí", price: 129 },
+            { foodName: "Vepřové", price: 139 },
+            { foodName: "Hovězí", price: 149 },
+            { foodName: "Krevety", price: 159 },
+            { foodName: "Tofu", price: 129 },
+            { foodName: "Zelenina", price: 105 },
         ]
     },
     {
         category: "Bun xao - Restované rýžové nudle",
         items: [
-            { foodName: "Bun xao - Kuřecí", price: 129 },
-            { foodName: "Bun xao - Vepřové", price: 139 },
-            { foodName: "Bun xao - Hovězí", price: 149 },
-            { foodName: "Bun xao - Krevety", price: 159 },
-            { foodName: "Bun xao - Tofu", price: 129 },
-            { foodName: "Bun xao - Zelenina", price: 105 },
+            { foodName: "Kuřecí", price: 129 },
+            { foodName: "Vepřové", price: 139 },
+            { foodName: "Hovězí", price: 149 },
+            { foodName: "Krevety", price: 159 },
+            { foodName: "Tofu", price: 129 },
+            { foodName: "Zelenina", price: 105 },
         ]
     },
     {
         category: "My xao - Restované nudle",
         items: [
-            { foodName: "My xao - Kuřecí", price: 129 },
-            { foodName: "My xao - Vepřové", price: 139 },
-            { foodName: "My xao - Hovězí", price: 149 },
-            { foodName: "My xao - Krevety", price: 159 },
-            { foodName: "My xao - Tofu", price: 129 },
-            { foodName: "My xao - Zelenina", price: 105 },
+            { foodName: "Kuřecí", price: 129 },
+            { foodName: "Vepřové", price: 139 },
+            { foodName: "Hovězí", price: 149 },
+            { foodName: "Krevety", price: 159 },
+            { foodName: "Tofu", price: 129 },
+            { foodName: "Zelenina", price: 105 },
         ]
     },
     {
         category: "Mien xao - Restované skleněné nudle",
         items: [
-            { foodName: "Mien xao - Kuřecí", price: 139 },
-            { foodName: "Mien xao - Vepřové", price: 149 },
-            { foodName: "Mien xao - Hovězí", price: 159 },
-            { foodName: "Mien xao - Krevety", price: 169 },
-            { foodName: "Mien xao - Tofu", price: 139 },
-            { foodName: "Mien xao - Zelenina", price: 115 },
+            { foodName: "Kuřecí", price: 139 },
+            { foodName: "Vepřové", price: 149 },
+            { foodName: "Hovězí", price: 159 },
+            { foodName: "Krevety", price: 169 },
+            { foodName: "Tofu", price: 139 },
+            { foodName: "Zelenina", price: 115 },
         ]
     },
 ];
@@ -235,33 +235,33 @@ export const upMenu = [
     {
         category: "Com rang Up - Restovaná rýže s omáčkou",
         items: [
-            { foodName: "Com rang Up - Křupavá kuřecí prsa", price: 159 },
-            { foodName: "Com rang Up - Křupavé kuřecí stehno", price: 169 },
-            { foodName: "Com rang Up - Křupavá kachna", price: 189 },
+            { foodName: "Křupavá kuřecí prsa", price: 159 },
+            { foodName: "Křupavé kuřecí stehno", price: 169 },
+            { foodName: "Křupavá kachna", price: 189 },
         ]
     },
     {
         category: "Com Up - Bílá rýže s omáčkou",
         items: [
-            { foodName: "Com Up - Křupavá kuřecí prsa", price: 159 },
-            { foodName: "Com Up - Křupavé kuřecí stehno", price: 169 },
-            { foodName: "Com Up - Křupavá kachna", price: 189 },
+            { foodName: "Křupavá kuřecí prsa", price: 159 },
+            { foodName: "Křupavé kuřecí stehno", price: 169 },
+            { foodName: "Křupavá kachna", price: 189 },
         ]
     },
     {
         category: "Bun Up - Restované rýžové nudle s omáčkou",
         items: [
-            { foodName: "Bun Up - Křupavá kuřecí prsa", price: 159 },
-            { foodName: "Bun Up - Křupavé kuřecí stehno", price: 169 },
-            { foodName: "Bun Up - Křupavá kachna", price: 189 },
+            { foodName: "Křupavá kuřecí prsa", price: 159 },
+            { foodName: "Křupavé kuřecí stehno", price: 169 },
+            { foodName: "Křupavá kachna", price: 189 },
         ]
     },
     {
         category: "My Up - Restované nudle s omáčkou",
         items: [
-            { foodName: "My Up - Křupavá kuřecí prsa", price: 159 },
-            { foodName: "My Up - Křupavé kuřecí stehno", price: 169 },
-            { foodName: "My Up - Křupavá kachna", price: 189 },
+            { foodName: "Křupavá kuřecí prsa", price: 159 },
+            { foodName: "Křupavé kuřecí stehno", price: 169 },
+            { foodName: "Křupavá kachna", price: 189 },
         ]
     }
 ];
@@ -462,6 +462,251 @@ export const curryMenu = [
             { foodName: "Křupavá kuřecí prsa", price: 189 },
             { foodName: "Křupavé kuřecí stehno", price: 199 },
             { foodName: "Křupavá kachna", price: 209 }
+        ]
+    }
+];
+
+export const makiMenu = [
+    {
+        category: "Maki Sake",
+        description: "Maki losos",
+        items: [
+            { foodName: "8ks", price: 99 },
+            { foodName: "16ks", price: 178 }
+        ]
+    },
+    {
+        category: "Maki Maguro",
+        description: "Maki tuňák",
+        items: [
+            { foodName: "8ks", price: 109 },
+            { foodName: "16ks", price: 189 }
+        ]
+    },
+    {
+        category: "Maki Kani",
+        description: "Maki krabí",
+        items: [
+            { foodName: "8ks", price: 89 },
+            { foodName: "16ks", price: 158 }
+        ]
+    },
+    {
+        category: "Maki Ebi",
+        description: "Maki smažené krevety",
+        items: [
+            { foodName: "8ks", price: 99 },
+            { foodName: "16ks", price: 178 }
+        ]
+    },
+    {
+        category: "Maki Kappa",
+        description: "Maki okurka",
+        items: [
+            { foodName: "8ks", price: 79 },
+            { foodName: "16ks", price: 148 }
+        ]
+    },
+    {
+        category: "Maki Avocado",
+        description: "Maki avokádo",
+        items: [
+            { foodName: "8ks", price: 89 },
+            { foodName: "16ks", price: 158 }
+        ]
+    },
+    {
+        category: "Maki Oshinko",
+        description: "Maki ředkev",
+        items: [
+            { foodName: "8ks", price: 79 },
+            { foodName: "16ks", price: 148 }
+        ]
+    },
+    {
+        category: "Sake-avo",
+        description: "Losos - avokádo",
+        items: [
+            { foodName: "8ks", price: 105 },
+            { foodName: "16ks", price: 199 }
+        ]
+    },
+    {
+        category: "Tuna-avo",
+        description: "Tuňák - avokádo",
+        items: [
+            { foodName: "8ks", price: 115 },
+            { foodName: "16ks", price: 215 }
+        ]
+    },
+    {
+        category: "Ebi-avo",
+        description: "Krevety - avokádo",
+        items: [
+            { foodName: "8ks", price: 115 },
+            { foodName: "16ks", price: 215 }
+        ]
+    }
+];
+
+export const nigiriMenu = [
+    {
+        category: "Nigiri Sake",
+        description: "Nigiri losos",
+        items: [
+            { foodName: "Nigiri losos", price: 99 }
+        ]
+    },
+    {
+        category: "Nigiri Ebi",
+        description: "Nigiri krevety",
+        items: [
+            { foodName: "Nigiri krevety", price: 99 }
+        ]
+    },
+    {
+        category: "Nigiri Maguro",
+        description: "Nigiri tuňák",
+        items: [
+            { foodName: "Nigiri tuňák", price: 109 }
+        ]
+    },
+    {
+        category: "Nigiri Avocado",
+        description: "Nigiri avokádo",
+        items: [
+            { foodName: "Nigiri avokádo", price: 79 }
+        ]
+    },
+    {
+        category: "Nigiri Unagi",
+        description: "Nigiri úhoř",
+        items: [
+            { foodName: "Nigiri úhoř", price: 129 }
+        ]
+    }
+];
+
+export const nigiri5ksMenu = [
+    {
+        category: "Sake",
+        items: [{ foodName: "Losos", price: 299 }]
+    },
+    {
+        category: "Maguro",
+        items: [{ foodName: "Tuňak", price: 319 }]
+    }
+];
+
+export const tempuraRollMenu = [
+    {
+        category: "Tempura Roll",
+        items: [
+            { foodName: "Sake Tempura Roll", description: "Losos, avokádo, okurka", price: 259 },
+            { foodName: "Kani Tempura Roll", description: "Krab, avokádo, okurka", price: 259 }
+        ]
+    }
+];
+
+
+export const specialRollsMenu = [
+    {
+        category: "Sake Skin Roll",
+        items: [{ foodName: "Plátky lososa, krevety, okurka", price: 259 }]
+    },
+    {
+        category: "California Red",
+        items: [{ foodName: "Krab, okurka, avokádo, kaviár", price: 185 }]
+    },
+    {
+        category: "California Sesame",
+        items: [{ foodName: "Losos, okurka, avokádo, sezam", price: 185 }]
+    },
+    {
+        category: "Ebiten",
+        items: [{ foodName: "Smažené krevety, okurka, avokádo", price: 229 }]
+    },
+    {
+        category: "Avo Roll",
+        items: [{ foodName: "Avokádo, losos, krab, okurka", price: 185 }]
+    }
+];
+
+export const grilledRollsMenu = [
+    {
+        category: "Grilled Salmon Rolls",
+        description: "Uvnitř: Losos, okurka, jarní cibulka | Vně: Grilovaný losos",
+        items: [
+            { foodName: "Grilled Salmon Rolls (4ks)", price: 179 },
+            { foodName: "Grilled Salmon Rolls (8ks)", price: 295 }
+        ]
+    },
+    {
+        category: "Grilled Tuna Rolls",
+        description: "Uvnitř: Tuňák, okurka, jarní cibulka | Vně: Grilovaný losos",
+        items: [
+            { foodName: "Grilled Tuna Rolls (4ks)", price: 189 },
+            { foodName: "Grilled Tuna Rolls (8ks)", price: 329 }
+        ]
+    },
+    {
+        category: "Grilled Ebi Rolls",
+        description: "Uvnitř: Krevetz, okurka, avokádo | Vně: Grilovaný losos",
+        items: [
+            { foodName: "Grilled Ebi Rolls (4ks)", price: 189 },
+            { foodName: "Grilled Ebi Rolls (8ks)", price: 329 }
+        ]
+    }
+];
+
+export const sushiSetsMenu = [
+    {
+        category: "Nigiri Set",
+        description: "2x losos, 2x tuňak, 2x avokádo, 2x krevety",
+        items: [
+            { foodName: "Nigiri Set", price: 339 }
+        ]
+    },
+    {
+        category: "Mix Maki Set",
+        description: "8x losos, 8x tuňak, 8x avokádo",
+        items: [
+            { foodName: "Mix Maki Set", price: 259 }
+        ]
+    },
+    {
+        category: "Vege Maki Set",
+        description: "8x okurka, 8x ředkev, 8x avokádo",
+        items: [
+            { foodName: "Vege Maki Set", price: 209 }
+        ]
+    },
+    {
+        category: "Losos Set",
+        description: "8x maki losos, 4x nigiri losos",
+        items: [
+            { foodName: "Losos Set", price: 259 }
+        ]
+    },
+    {
+        category: "Tuňak Set",
+        description: "8x maki tuňák, 4x nigiri tuňák",
+        items: [
+            { foodName: "Tuňak Set", price: 289 }
+        ]
+    },
+    {
+        category: "Combo S33",
+        description: "8ks Maki úhoř, 8ks Maki losos avokádo, 4ks Krabí California Kaviár",
+        items: [
+            { foodName: "Combo S33", price: 309 }
+        ]
+    },
+    {
+        category: "Combo S34",
+        description: "8ks Losos avokádo Maki, 8ks Tuňák avokádo Maki, 8ks Krevetz avokádo Maki",
+        items: [
+            { foodName: "Combo S34", price: 285 }
         ]
     }
 ];

@@ -38,7 +38,7 @@ const MenuSection = ({ category, title, lsMenu }: MenuSectionProps) => {
                     {item.items.map((item, index) => (
                       <div className="flex items-end text-text-0" key={index}>
                         <p className="md:text-lg text-base font-bold">{item.foodName}</p>
-                        <div className="w-full h-[1px] bg-gray-400 mx-2 flex-1 mb-1"></div>
+                        <div className="w-full h-[1px] bg-gray-400 mx-2 flex-1 mb-1.5"></div>
                         <p className="md:text-lg text-base text-[#F0A039] font-medium ">{item.price}Kč</p>
                       </div>
                     ))}
