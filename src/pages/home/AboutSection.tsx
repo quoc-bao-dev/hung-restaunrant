@@ -15,7 +15,7 @@ const AboutSection = () => {
                         transition={{ duration: 0.8, ease: "easeOut" }}
                     >
                         <img
-                            src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                            src="/images/banner-1.avif"
                             alt=""
                             className='md:h-[460px] h-[200px] w-full object-cover rounded-lg'
                         />
@@ -24,7 +24,7 @@ const AboutSection = () => {
 
                     {/* text */}
                     <motion.div
-                        className="col-span-12 md:col-span-7"
+                        className="col-span-12 md:col-span-7 md:text-xl"
                         initial={{ x: 50, opacity: 0 }}
                         whileInView={{ x: 0, opacity: 1 }}
                         viewport={{ once: true, amount: 0.2 }}
@@ -35,6 +35,9 @@ const AboutSection = () => {
                         </h2>
                         <p className="mt-5">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, dolores. Quae, autem! Quos, dolores. Quae, autem! Quos, dolores. Quae, autem!
+                        </p>
+                        <p className="mt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo quo suscipit soluta beatae, inventore adipisci expedita repellendus nam ipsum sunt illum blanditiis consequatur autem doloremque. Eligendi quo ullam est.
                         </p>
                     </motion.div>
                     {/* text */}

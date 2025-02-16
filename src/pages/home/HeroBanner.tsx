@@ -33,7 +33,7 @@ const HeroBanner = () => {
                     </motion.h1>
 
                     <motion.p
-                        className="pt-5 text-gray-100"
+                        className="pt-5 text-gray-100 md:text-2xl"
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
@@ -47,7 +47,7 @@ const HeroBanner = () => {
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.5, ease: "easeOut", delay: 0.6 }}
                     >
-                        <Link to="/menu"><button className="bg-red-500 text-white px-5 py-3">Menu</button></Link>
+                        <Link to="/menu"><button className="bg-red-500 text-white px-10 py-3 font-medium md:text-xl">Menu</button></Link>
                     </motion.div>
                 </Container>
             </motion.div>
