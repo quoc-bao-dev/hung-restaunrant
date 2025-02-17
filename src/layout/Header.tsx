@@ -5,6 +5,7 @@ import InstagramIcon from "../components/icon/InstagramIcon"
 import TwitterIcon from "../components/icon/TwitterIcon"
 import { useSidebarContext } from "../context/SidebarProvider;"
 import Container from "./Container"
+import { scrollToSection } from "../utils/scroll"
 
 const Header = () => {
     const { setIsShowSideBar, isShowSideBar } = useSidebarContext()
@@ -16,9 +17,9 @@ const Header = () => {
                     <div className="relative flex justify-between h-full  items-center">
                         {/* left */}
                         <div className="hidden md:flex gap-10 items-center ">
-                            <Link to="/"><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">About</p></Link>
+                            <Link to="/#about" onClick={() => scrollToSection('about')}><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">About</p></Link>
                             <Link to="/menu"><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">Menu</p></Link>
-                            <Link to="/#address"><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">Address</p></Link>
+                            <Link to="/#address" onClick={() => scrollToSection('address')}><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">Address</p></Link>
                         </div>
                         {/* left */}
 
@@ -28,7 +29,7 @@ const Header = () => {
 
                         {/* right */}
                         <div className="hidden md:flex gap-5 items-center">
-                            <Link to="/#address"><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">Contact</p></Link>
+                            <Link to="/#contact" onClick={() => scrollToSection('contact')}><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">Contact</p></Link>
                             <Link to="/"><InstagramIcon /></Link>
                             <Link to="/"><TwitterIcon /></Link>
                         </div>

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const AboutSection = () => {
     return (
-        <section className='py-20 pb-5 md:pb-20'>
+        <section className='py-20 pb-5 md:pb-20' id="about">
             <Container>
                 <div className="grid grid-cols-12 gap-5">
                     {/* image */}

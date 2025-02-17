@@ -2,7 +2,7 @@ import Container from "../../layout/Container"
 
 const ContactSection = () => {
     return (
-        <section className="py-10">
+        <section className="py-10" id="contact">
             <Container>
                 <div className="p-10 rounded-lg bg-gray-700">
                     <div className="grid grid-cols-12 gap-4">
