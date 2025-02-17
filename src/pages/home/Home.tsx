@@ -1,13 +1,13 @@
+import { useEffect } from "react"
 import { Helmet } from "react-helmet"
+import { useLocation } from "react-router-dom"
 import { menu } from "../../data/menu"
+import { scrollToSection } from "../../utils/scroll"
 import AboutSection from "./AboutSection"
 import AddressSection from "./AddressSection"
 import ContactSection from "./ContactSection"
 import HeroBanner from "./HeroBanner"
 import MenuSection from "./MenuSection"
-import { useLocation } from "react-router-dom"
-import { useEffect } from "react"
-import { scrollToSection } from "../../utils/scroll"
 
 
 const Home = () => {

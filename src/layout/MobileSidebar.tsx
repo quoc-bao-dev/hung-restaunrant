@@ -1,11 +1,16 @@
 import { AnimatePresence, motion } from "framer-motion"
-import { useSidebarContext } from "../context/SidebarProvider;"
-import Logo from "../components/common/Logo"
 import { Link } from "react-router-dom"
+import Logo from "../components/common/Logo"
+import { useSidebarContext } from "../context/SidebarProvider;"
+import { scrollToSection } from "../utils/scroll"
 
 const MobileSidebar = () => {
     const { isShowSideBar, setIsShowSideBar } = useSidebarContext()
     const handleClose = () => setIsShowSideBar(false)
+    const handleClick = (id: string) => () => {
+        setIsShowSideBar(false)
+        scrollToSection(id)
+    }
     return (
         <AnimatePresence>
             {isShowSideBar && (
@@ -21,9 +26,9 @@ const MobileSidebar = () => {
                         <div className="text-text-0 flex flex-col items-center gap-4">
                             <Logo />
                             <Link to={"/menu"} onClick={handleClose}><p>Menu</p></Link>
-                            <Link to={"/"} onClick={handleClose}><p>About</p></Link>
-                            <Link to={"/"} onClick={handleClose}><p>Address</p></Link>
-                            <Link to={"/"} onClick={handleClose}><p>Contact</p></Link>
+                            <Link to={"/#about"} onClick={handleClick('about')}><p>About</p></Link>
+                            <Link to={"/#address"} onClick={handleClick('address')}><p>Address</p></Link>
+                            <Link to={"/#contact"} onClick={handleClick('contact')}><p>Contact</p></Link>
                         </div>
                     </div>
                 </motion.div>
