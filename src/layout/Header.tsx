@@ -16,10 +16,12 @@ const Header = () => {
                 <Container >
                     <div className="relative flex justify-between h-full  items-center">
                         {/* left */}
-                        <div className="hidden md:flex gap-10 items-center ">
-                            <Link to="/#about" onClick={() => scrollToSection('about')}><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">About</p></Link>
+                        <div className="hidden md:flex gap-6 items-center ">
+                            <Link to="/" onClick={() => scrollToSection('home')}><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">Domů</p></Link>
+                            <Link to="/#about" onClick={() => scrollToSection('about')}><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">O nás</p></Link>
+                            <Link to="/#signature" onClick={() => scrollToSection('signature')}><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">Podpis</p></Link>
+                            <Link to="/#address" onClick={() => scrollToSection('address')}><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">Adresa</p></Link>
                             <Link to="/menu"><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">Menu</p></Link>
-                            <Link to="/#address" onClick={() => scrollToSection('address')}><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">Address</p></Link>
                         </div>
                         {/* left */}
 

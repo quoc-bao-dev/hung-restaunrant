@@ -31,13 +31,16 @@ const AboutSection = () => {
                         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                     >
                         <h2 className="md:text-4xl text-2xl font-bold text-neutral-800">
-                            | About Us
+                            | O nás
                         </h2>
                         <p className="mt-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, dolores. Quae, autem! Quos, dolores. Quae, autem! Quos, dolores. Quae, autem!
+                            V Hung restauraci najdete širokou nabídku vietnamských, thajských a japonských pokrmů, které vám přiblíží tradiční asijskou kuchyni. Čerstvé suroviny a bohaté porce vás přesvědčí, že Hung restaurace je to pravé. Rodinná restaurace s přátelskou atmosférou klade důraz na vaši spokojenost a příjemný zážitek. Ochutnáte tradiční chutě i originální recepty.
                         </p>
                         <p className="mt-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo quo suscipit soluta beatae, inventore adipisci expedita repellendus nam ipsum sunt illum blanditiis consequatur autem doloremque. Eligendi quo ullam est.
+                            Naše rodina přijela před rokem 1999 do Česka. Stesk po domácí kuchyni byl obrovský a časem jsme se naučili připravovat jídla, a stalo se to naší vášni. V roce 2024 jsme se rozhodli otevřít si první vietnamskou restauraci.
+                        </p>
+                        <p className="mt-3">
+                            Od té doby předáváme radost dál skrze vynikající jídla, která připravujeme s láskou a máme obrovskou radost, když vám chutná. Propadněte s námi kouzlu asijské kuchyně a rezervujte si stůl ještě dnes.
                         </p>
                     </motion.div>
                     {/* text */}

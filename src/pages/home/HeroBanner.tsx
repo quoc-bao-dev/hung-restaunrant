@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const HeroBanner = () => {
     return (
-        <section className="relative h-screen">
+        <section className="relative h-screen" id="home">
             {/* video */}
             <div className="w-full h-full">
                 <video
@@ -29,17 +29,48 @@ const HeroBanner = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                     >
-                        HU’NG restaurace
+                        Všechny chutě Asie
                     </motion.h1>
 
-                    <motion.p
-                        className="pt-5 text-gray-100 md:text-2xl"
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
-                    >
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia deleniti tenetur, fugit sequi veniam libero ullam temporibus quibusdam. Nam quos delectus ad corrupti consequatur mollitia voluptas quasi, hic suscipit ullam?
-                    </motion.p>
+
+                    <div className="flex flex-col pt-5">
+                        <div>
+                            <motion.p
+                                className="text-gray-100 md:text-3xl text-lg font-medium"
+                                initial={{ opacity: 0, y: 10 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+                            >
+                                Tradiční receptury
+                            </motion.p>
+                            <motion.p
+                                className="pt-2 text-gray-100 md:text-xl"
+                                initial={{ opacity: 0, y: 10 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+                            >
+                                Přijďte na naše tradiční jídla, které znáte z Vietnamu, Číny, Japonska, Indie a Thajska.
+                            </motion.p>
+                        </div>
+                        <div>
+                            <motion.p
+                                className="pt-5 text-gray-100 md:text-3xl text-lg font-medium"
+                                initial={{ opacity: 0, y: 10 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+                            >
+                                Autentické požitky
+                            </motion.p>
+                            <motion.p
+                                className="pt-2 text-gray-100 md:text-xl"
+                                initial={{ opacity: 0, y: 10 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+                            >
+                                Všechny chutě a vůně vychází z koření a umění našich šéfkuchařů.
+                            </motion.p>
+                        </div>
+                    </div>
 
                     <motion.div
                         className="flex justify-center pt-5"

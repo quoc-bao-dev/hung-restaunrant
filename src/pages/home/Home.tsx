@@ -31,7 +31,7 @@ const Home = () => {
             </Helmet>
             <HeroBanner />
             <AboutSection />
-            <MenuSection image="/images/banner-1.avif" title="Signature" menu={menu} foodName="Pho" />
+            <MenuSection image="/images/banner-1.avif" title="Podpis" menu={menu} foodName="Pho" />
             <MenuSection image="/images/banner-1.avif" title="Sushi" menu={menu} foodName="Pho" imagePosition="left" />
             <AddressSection />
             <ContactSection />

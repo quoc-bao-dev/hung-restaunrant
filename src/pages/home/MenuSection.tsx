@@ -17,6 +17,7 @@ const MenuSection = ({ foodName, image, menu, title, imagePosition = "right" }: 
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: "easeOut" }}
+            id="signature"
         >
             <Container>
                 <h2 className="md:text-4xl text-2xl text-center font-bold text-neutral-800">{title}</h2>
