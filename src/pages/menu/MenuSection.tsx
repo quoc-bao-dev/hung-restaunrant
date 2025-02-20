@@ -1,18 +1,11 @@
+import { Menu } from "../../interface";
 import Container from "../../layout/Container";
 
-type MenuItem = {
-  foodName: string;
-  price: number;
-};
 
 type MenuSectionProps = {
   category: string;
   title: string;
-  menu: {
-    category: string;
-    description?: string;
-    items: MenuItem[];
-  }[]
+  menu: Menu
 };
 
 const MenuSection = ({ category, menu }: MenuSectionProps) => {

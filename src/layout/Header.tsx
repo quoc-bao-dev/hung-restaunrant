@@ -1,13 +1,11 @@
 import { Link } from "react-router-dom"
 import HamburgerButton from "../components/common/HamburgerButton"
 import Logo from "../components/common/Logo"
-import InstagramIcon from "../components/icon/InstagramIcon"
-import TwitterIcon from "../components/icon/TwitterIcon"
-import { useSidebarContext } from "../context/SidebarProvider;"
-import Container from "./Container"
-import { scrollToSection } from "../utils/scroll"
-import WoltIcon from "../components/icon/WoltIcon"
 import FoodoraIcon from "../components/icon/FoodoraIcon"
+import WoltIcon from "../components/icon/WoltIcon"
+import { useSidebarContext } from "../context/SidebarProvider;"
+import { scrollToSection } from "../utils/scroll"
+import Container from "./Container"
 
 const Header = () => {
     const { setIsShowSideBar, isShowSideBar } = useSidebarContext()
