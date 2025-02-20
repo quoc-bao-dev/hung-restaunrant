@@ -12,10 +12,8 @@ const ContactSection = () => {
                             <div className="pt-2">
                                 <ul className=" flex flex-col gap-2 text-white">
                                     <li>
-                                        <p><span className="font-medium">Address:</span> Trabantská 373, 190 15 Praha - Satalice</p>
-                                        <p><span className="font-medium">Address:</span> Trabantská 373, 190 15 Praha - Satalice</p>
-                                        <p><span className="font-medium">Address:</span> Trabantská 373, 190 15 Praha - Satalice</p>
-                                        <p><span className="font-medium">Address:</span> Trabantská 373, 190 15 Praha - Satalice</p>
+                                        <p><span className="font-medium text-sm">Tel:</span> 776 509 577</p>
+                                        <p><span className="font-medium text-sm"> Adresa:</span> Trabantská 373, 190 15 Praha - Satalice</p>
                                     </li>
                                 </ul>
                             </div>
@@ -24,14 +22,13 @@ const ContactSection = () => {
 
                         {/* Open */}
                         <div className="col-span-12 md:col-span-3">
-                            <h3 className="text-lg font-bold text-white text-center md:text-left"> Open</h3>
+                            <h3 className="text-lg font-bold text-white text-center md:text-left"> Rezervace</h3>
                             <div className="pt-2">
-                                <ul className=" flex flex-col gap-2 text-white">
+                                <ul className=" flex flex-col gap-2 text-white text-sm">
                                     <li>
-                                        <p><span className="font-medium">Open:</span> 9:00 - 21:00</p>
-                                        <p><span className="font-medium">Open:</span> 9:00 - 21:00</p>
-                                        <p><span className="font-medium">Open:</span> 9:00 - 21:00</p>
-                                        <p><span className="font-medium">Open:</span> 9:00 - 21:00</p>
+                                        <p>Pro rezervaci prosím volejte na tel: 776 509 577</p>
+                                        <p>Trabantská 373, 190 15 Praha - Satalice
+                                            Po - Ne 9:00 - 21:00</p>
                                     </li>
                                 </ul>
                             </div>
@@ -40,9 +37,9 @@ const ContactSection = () => {
 
                         {/* info */}
                         <div className="col-span-12 md:col-span-6">
-                            <h3 className="text-lg font-bold text-white text-center">Hung restaurant</h3>
-                            <p className="pt-2 text-white">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, dolores. Quae, autem! Quos, dolores. Quae, autem! Quos, dolores. Quae, autem!
+                            <h3 className="text-lg font-bold text-white text-center">Hung Restaurace – Chuť Asie v srdci Česka</h3>
+                            <p className="pt-2 text-white text-sm">
+                                Objevte tradiční vietnamskou, thajskou a japonskou kuchyni připravovanou s láskou a čerstvými surovinami. Jsme rodinná restaurace s přátelskou atmosférou, kde každý pokrm vypráví příběh naší vášně. Přijďte ochutnat a užít si nezapomenutelný gastronomický zážitek!
                             </p>
                         </div>
                         {/* info */}
