@@ -9,13 +9,12 @@ type MenuSectionProps = {
 };
 
 const MenuSection = ({ category, menu }: MenuSectionProps) => {
-  const Line = () => <span className="mb-2.5 md:w-[120px] w-[60px]  h-[1px] inline-block bg-[#F0A039]"></span>
   return (
     <section className="py-10 -mt-1" style={{ backgroundImage: "url('/images/bg-1.png')" }}>
       <Container>
         {/* Tiêu đề */}
         <div className="text-center">
-          <p className="italic text-[#F0A039] md:text-6xl text-4xl font-corinthia"> <Line /> <span className="mx-4"> {category}</span> <Line /></p>
+          <p className="italic text-[#F0A039] md:text-4xl text-4xl font-bold"> {category}</p>
           {/* <h2 className="md:text-6xl text-4xl font-bold mt-2 text-white">{title}</h2> */}
         </div>
 

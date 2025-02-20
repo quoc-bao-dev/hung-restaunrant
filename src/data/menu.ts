@@ -80,7 +80,7 @@ export const appetizersMenu = [
 export const saladsMenu = [
     {
         category: "Salát Xoai",
-        description: "Mangový salá",
+        description: "Mangový salát",
         items: [
             { foodName: "Zelenina", price: 119 },
             { foodName: "Krevety", price: 129 },
@@ -653,7 +653,7 @@ export const grilledRollsMenu = [
     },
     {
         category: "Grilled Ebi Rolls",
-        description: "Uvnitř: Krevetz, okurka, avokádo | Vně: Grilovaný losos",
+        description: "Uvnitř: Krevety, okurka, avokádo | Vně: Grilovaný losos",
         items: [
             { foodName: "Grilled Ebi Rolls (4ks)", price: 189 },
             { foodName: "Grilled Ebi Rolls (8ks)", price: 329 }
@@ -701,7 +701,7 @@ export const sushiSetsMenu = [
     {
         category: "Combo S34",
         items: [
-            { foodName: "8ks Losos avokádo Maki, 8ks Tuňák avokádo Maki, 8ks Krevetz avokádo Maki", price: 285 }
+            { foodName: "8ks Losos avokádo Maki, 8ks Tuňák avokádo Maki, 8ks Krevety avokádo Maki", price: 285 }
         ]
     }
 ];

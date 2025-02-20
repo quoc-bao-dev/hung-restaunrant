@@ -80,7 +80,7 @@ const MenuSection = ({ section, image, title, imagePosition = "right" }: MenuSec
                                                 >
                                                     <h4 className="md:text-lg text-base font-medium">{item.foodName}</h4>
                                                     <div className="w-full h-[1px] bg-gray-400 flex-1 mb-1.5"></div>
-                                                    <p className="md:text-lg text-base text-text-1 font-medium ">${item.price}</p>
+                                                    <p className="md:text-lg text-base text-text-1 font-medium ">{item.price}Kč</p>
                                                 </motion.div>
                                             ))}
                                         </div>

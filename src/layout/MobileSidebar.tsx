@@ -5,6 +5,7 @@ import { useSidebarContext } from "../context/SidebarProvider;"
 import { scrollToSection } from "../utils/scroll"
 import FoodoraIcon from "../components/icon/FoodoraIcon"
 import WoltIcon from "../components/icon/WoltIcon"
+import Bolt from "../components/icon/Bolt"
 
 const MobileSidebar = () => {
     const { isShowSideBar, setIsShowSideBar } = useSidebarContext()
@@ -31,13 +32,18 @@ const MobileSidebar = () => {
                             <Link to={"/#about"} onClick={handleClick('about')}><p>O nás</p></Link>
                             <Link to={"/#address"} onClick={handleClick('address')}><p>Adresa</p></Link>
                             <Link to={"/#contact"} onClick={handleClick('contact')}><p>Kontakt</p></Link>
-                            <a href="https://wolt.com/cs/cze/prague/restaurant/hung-restaurace?srsltid=AfmBOorB6eFN-145n_Ep5r0PXqqQky0ZD5_GGALGjAhVcjhvPO4xWL-E&fbclid=IwZXh0bgNhZW0CMTAAAR3n6oHneAT3tr3Ar-YKzCFa4KrWtnZ9ruIANp_-ZazZIBo47xrKJq1sURY_aem_xX9xYVg9HysFUcXCMSwAJw"
-                                target="_blank"
-                            > <WoltIcon /></a>
-                            <a href="https://www.foodora.cz/restaurant/ushe/hung-restaurace?fbclid=IwZXh0bgNhZW0CMTAAAR1ObIKe3lCOeDAh_XZw6pRl-Y0twOA-rpsWL2ickkU2Yncb4Y8rHh5OIQo_aem_KbgqLvFLXXYhuKWpBT9n1Q"
-                                target="_blank">
-                                <FoodoraIcon />
-                            </a>
+                            <div className="flex flex-col items-center">
+                                <a href="https://wolt.com/cs/cze/prague/restaurant/hung-restaurace?srsltid=AfmBOorB6eFN-145n_Ep5r0PXqqQky0ZD5_GGALGjAhVcjhvPO4xWL-E&fbclid=IwZXh0bgNhZW0CMTAAAR3n6oHneAT3tr3Ar-YKzCFa4KrWtnZ9ruIANp_-ZazZIBo47xrKJq1sURY_aem_xX9xYVg9HysFUcXCMSwAJw"
+                                    target="_blank"
+                                > <WoltIcon /></a>
+                                <a href="https://www.foodora.cz/restaurant/ushe/hung-restaurace?fbclid=IwZXh0bgNhZW0CMTAAAR1ObIKe3lCOeDAh_XZw6pRl-Y0twOA-rpsWL2ickkU2Yncb4Y8rHh5OIQo_aem_KbgqLvFLXXYhuKWpBT9n1Q"
+                                    target="_blank">
+                                    <FoodoraIcon />
+                                </a>
+                                <a href="https://food.bolt.eu/en-US/271-prague/p/130956-hu'ng-restaurace" target="_blank">
+                                    <Bolt />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </motion.div>
