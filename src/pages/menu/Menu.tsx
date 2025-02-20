@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import { Outlet } from "react-router-dom";
 import BannerSection from "./BannerSection";
+import ContactSection from "../home/ContactSection";
 
 const Menu = () => {
     return (
@@ -13,6 +14,9 @@ const Menu = () => {
             </Helmet>
             <BannerSection />
             <Outlet />
+            <div className="bg-[#1e2326]">
+                <ContactSection />
+            </div>
         </main>
     )
 }

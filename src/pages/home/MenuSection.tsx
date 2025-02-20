@@ -49,7 +49,7 @@ const MenuSection = ({ section, image, title, imagePosition = "right" }: MenuSec
                             <div className="bg-bg-0 md:px-16 md:pt-8 md:pb-20 p-6 pb-8 text-text-0 rounded-lg">
                                 {section.map((item, index) => <div className={`${index > 0 && 'pt-5'}`} key={item.foodName}>
                                     <motion.h3
-                                        className="text-2xl font-medium text-center"
+                                        className="md:text-2xl text-xl font-medium text-center"
                                         initial={{ opacity: 0, y: -10 }}
                                         whileInView={{ opacity: 1, y: 0 }}
                                         viewport={{ once: true }}
