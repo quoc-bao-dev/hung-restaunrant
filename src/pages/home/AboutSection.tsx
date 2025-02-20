@@ -15,7 +15,7 @@ const AboutSection = () => {
                         transition={{ duration: 0.8, ease: "easeOut" }}
                     >
                         <img
-                            src="/images/banner-1.avif"
+                            src="/images/banner-about.jpg"
                             alt=""
                             className='md:h-[460px] h-[200px] w-full object-cover rounded-lg'
                         />

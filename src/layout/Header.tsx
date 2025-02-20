@@ -34,7 +34,7 @@ const Header = () => {
                         <div className="hidden md:flex gap-5 items-center">
                             <Link to="/menu"><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">Menu</p></Link>
 
-                            <Link to="/#contact" onClick={() => scrollToSection('contact')}><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">Contact</p></Link>
+                            <Link to="/#contact" onClick={() => scrollToSection('contact')}><p className="font-medium text-lg hover:text-text-1 transition-all duration-300">Kontakt</p></Link>
                             <a href="https://wolt.com/cs/cze/prague/restaurant/hung-restaurace?srsltid=AfmBOorB6eFN-145n_Ep5r0PXqqQky0ZD5_GGALGjAhVcjhvPO4xWL-E&fbclid=IwZXh0bgNhZW0CMTAAAR3n6oHneAT3tr3Ar-YKzCFa4KrWtnZ9ruIANp_-ZazZIBo47xrKJq1sURY_aem_xX9xYVg9HysFUcXCMSwAJw"
                                 target="_blank"
                             > <WoltIcon /></a>

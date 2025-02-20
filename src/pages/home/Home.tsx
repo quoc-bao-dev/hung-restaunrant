@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import { Helmet } from "react-helmet"
 import { useLocation } from "react-router-dom"
-import { menu } from "../../data/menu"
+import { signature, signature2, signature3 } from "../../data/homeMenu"
 import { scrollToSection } from "../../utils/scroll"
 import AboutSection from "./AboutSection"
 import AddressSection from "./AddressSection"
@@ -24,15 +24,16 @@ const Home = () => {
     return (
         <main>
             <Helmet>
-                <title>Home | HU'NG Restaurant</title>
-                <meta name="description" content="Home of HU'NG Restaurant" />
-                <meta property="og:title" content="Home | HU'NG Restaurant" />
-                <meta property="og:description" content="Home of HU'NG Restaurant with delicious food" />
+                <title>Domů | HU'NG Restaurace</title>
+                <meta name="description" content="Domov HU'NG Restaurace" />
+                <meta property="og:title" content="Domů | HU'NG Restaurace" />
+                <meta property="og:description" content="Domů HU'NG Restaurace s lahodným jídlem" />
             </Helmet>
             <HeroBanner />
             <AboutSection />
-            <MenuSection image="/images/banner-1.avif" title="Podpis" menu={menu} foodName="Pho" />
-            <MenuSection image="/images/banner-1.avif" title="Sushi" menu={menu} foodName="Pho" imagePosition="left" />
+            <MenuSection image="/images/banner-1.jpg" title="Podpis" section={signature} />
+            <MenuSection image="/images/banner-2.jpg" title="Hlavní chody" section={signature2} imagePosition="left" />
+            <MenuSection image="/images/banner-3.jpg" title="Sushi" section={signature3} />
             <AddressSection />
             <ContactSection />
         </main>

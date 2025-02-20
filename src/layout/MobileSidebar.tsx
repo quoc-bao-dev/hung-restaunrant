@@ -3,6 +3,8 @@ import { Link } from "react-router-dom"
 import Logo from "../components/common/Logo"
 import { useSidebarContext } from "../context/SidebarProvider;"
 import { scrollToSection } from "../utils/scroll"
+import FoodoraIcon from "../components/icon/FoodoraIcon"
+import WoltIcon from "../components/icon/WoltIcon"
 
 const MobileSidebar = () => {
     const { isShowSideBar, setIsShowSideBar } = useSidebarContext()
@@ -26,9 +28,16 @@ const MobileSidebar = () => {
                         <div className="text-text-0 flex flex-col items-center gap-4">
                             <Logo />
                             <Link to={"/menu"} onClick={handleClose}><p>Menu</p></Link>
-                            <Link to={"/#about"} onClick={handleClick('about')}><p>About</p></Link>
-                            <Link to={"/#address"} onClick={handleClick('address')}><p>Address</p></Link>
-                            <Link to={"/#contact"} onClick={handleClick('contact')}><p>Contact</p></Link>
+                            <Link to={"/#about"} onClick={handleClick('about')}><p>O nás</p></Link>
+                            <Link to={"/#address"} onClick={handleClick('address')}><p>Adresa</p></Link>
+                            <Link to={"/#contact"} onClick={handleClick('contact')}><p>Kontakt</p></Link>
+                            <a href="https://wolt.com/cs/cze/prague/restaurant/hung-restaurace?srsltid=AfmBOorB6eFN-145n_Ep5r0PXqqQky0ZD5_GGALGjAhVcjhvPO4xWL-E&fbclid=IwZXh0bgNhZW0CMTAAAR3n6oHneAT3tr3Ar-YKzCFa4KrWtnZ9ruIANp_-ZazZIBo47xrKJq1sURY_aem_xX9xYVg9HysFUcXCMSwAJw"
+                                target="_blank"
+                            > <WoltIcon /></a>
+                            <a href="https://www.foodora.cz/restaurant/ushe/hung-restaurace?fbclid=IwZXh0bgNhZW0CMTAAAR1ObIKe3lCOeDAh_XZw6pRl-Y0twOA-rpsWL2ickkU2Yncb4Y8rHh5OIQo_aem_KbgqLvFLXXYhuKWpBT9n1Q"
+                                target="_blank">
+                                <FoodoraIcon />
+                            </a>
                         </div>
                     </div>
                 </motion.div>

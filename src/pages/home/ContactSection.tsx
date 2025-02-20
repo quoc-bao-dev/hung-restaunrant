@@ -8,7 +8,7 @@ const ContactSection = () => {
                     <div className="grid grid-cols-12 gap-4">
                         {/* contact */}
                         <div className="col-span-12 md:col-span-3">
-                            <h3 className="text-lg font-bold text-white text-center md:text-left"> Contact</h3>
+                            <h3 className="text-lg font-bold text-white text-center md:text-left"> Kontakt</h3>
                             <div className="pt-2">
                                 <ul className=" flex flex-col gap-2 text-white">
                                     <li>
