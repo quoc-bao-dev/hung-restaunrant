@@ -1,84 +1,108 @@
 import { Link } from "react-router-dom";
-import Container from "../../layout/Container"
+import Container from "../../layout/Container";
 import { motion } from "framer-motion";
 
 const HeroBanner = () => {
     return (
-        <section className="relative h-screen" id="home">
+        <section className='relative h-screen' id='home'>
             {/* video */}
-            <div className="w-full h-full">
+            <div className='w-full h-full'>
                 <video
-                    src="https://video.wixstatic.com/video/11062b_6655a7138a5b4da488c950c2eecefff9/1080p/mp4/file.mp4"
-                    autoPlay loop muted
-                    className="w-full h-full object-cover"
+                    src='/video/banner.mp4'
+                    autoPlay
+                    loop
+                    muted
+                    className='w-full h-full object-cover'
                 />
             </div>
             {/* video */}
 
             {/* content */}
             <motion.div
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full md:w-auto"
+                className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full md:w-auto'
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, ease: "easeOut" }}
-            >
+                transition={{ duration: 0.8, ease: "easeOut" }}>
                 <Container>
                     <motion.h1
-                        className="md:text-[96px] text-4xl text-nowrap font-bold text-center text-text-0"
+                        className='md:text-[96px] text-4xl text-nowrap font-bold text-center text-text-0'
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-                    >
+                        transition={{
+                            duration: 0.8,
+                            ease: "easeOut",
+                            delay: 0.2,
+                        }}>
                         Všechny chutě Asie
                     </motion.h1>
 
-
-                    <div className="flex flex-col pt-5">
+                    <div className='flex flex-col pt-5'>
                         <div>
                             <motion.p
-                                className="text-gray-100 md:text-3xl text-lg font-medium"
+                                className='text-gray-100 md:text-3xl text-lg font-medium'
                                 initial={{ opacity: 0, y: 10 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
-                            >
+                                transition={{
+                                    duration: 0.8,
+                                    ease: "easeOut",
+                                    delay: 0.4,
+                                }}>
                                 Tradiční receptury
                             </motion.p>
                             <motion.p
-                                className="pt-2 text-gray-100 md:text-xl"
+                                className='pt-2 text-gray-100 md:text-xl'
                                 initial={{ opacity: 0, y: 10 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
-                            >
-                                Přijďte na naše tradiční jídla, které znáte z Vietnamu, Číny, Japonska, Indie a Thajska.
+                                transition={{
+                                    duration: 0.8,
+                                    ease: "easeOut",
+                                    delay: 0.4,
+                                }}>
+                                Přijďte na naše tradiční jídla, které znáte z
+                                Vietnamu, Číny, Japonska, Indie a Thajska.
                             </motion.p>
                         </div>
                         <div>
                             <motion.p
-                                className="pt-5 text-gray-100 md:text-3xl text-lg font-medium"
+                                className='pt-5 text-gray-100 md:text-3xl text-lg font-medium'
                                 initial={{ opacity: 0, y: 10 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
-                            >
+                                transition={{
+                                    duration: 0.8,
+                                    ease: "easeOut",
+                                    delay: 0.4,
+                                }}>
                                 Autentické požitky
                             </motion.p>
                             <motion.p
-                                className="pt-2 text-gray-100 md:text-xl"
+                                className='pt-2 text-gray-100 md:text-xl'
                                 initial={{ opacity: 0, y: 10 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
-                            >
-                                Všechny chutě a vůně vychází z koření a umění našich šéfkuchařů.
+                                transition={{
+                                    duration: 0.8,
+                                    ease: "easeOut",
+                                    delay: 0.4,
+                                }}>
+                                Všechny chutě a vůně vychází z koření a umění
+                                našich šéfkuchařů.
                             </motion.p>
                         </div>
                     </div>
 
                     <motion.div
-                        className="flex justify-center pt-5"
+                        className='flex justify-center pt-5'
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.5, ease: "easeOut", delay: 0.6 }}
-                    >
-                        <Link to="/menu"><button className="bg-red-500 text-white px-10 py-3 font-medium md:text-xl">Menu</button></Link>
+                        transition={{
+                            duration: 0.5,
+                            ease: "easeOut",
+                            delay: 0.6,
+                        }}>
+                        <Link to='/menu'>
+                            <button className='bg-red-500 text-white px-10 py-3 font-medium md:text-xl'>
+                                Menu
+                            </button>
+                        </Link>
                     </motion.div>
                 </Container>
             </motion.div>
@@ -87,4 +111,4 @@ const HeroBanner = () => {
     );
 };
 
-export default HeroBanner
+export default HeroBanner;
