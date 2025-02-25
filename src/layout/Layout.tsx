@@ -1,7 +1,8 @@
-import { Outlet } from "react-router-dom"
-import Header from "./Header"
-import Footer from "./Footer"
-import MobileSidebar from "./MobileSidebar"
+import React from "react";
+import { Outlet } from "react-router-dom";
+const Header = React.lazy(() => import("./Header"));
+const Footer = React.lazy(() => import("./Footer"));
+const MobileSidebar = React.lazy(() => import("./MobileSidebar"));
 
 const Layout = () => {
     return (
@@ -11,7 +12,7 @@ const Layout = () => {
             <Outlet />
             <Footer />
         </>
-    )
-}
+    );
+};
 
-export default Layout
+export default Layout;

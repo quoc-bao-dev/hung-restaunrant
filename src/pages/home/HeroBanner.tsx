@@ -26,12 +26,12 @@ const HeroBanner = () => {
                 <Container>
                     <motion.h1
                         className='md:text-[96px] text-4xl text-nowrap font-bold text-center text-text-0'
-                        initial={{ opacity: 0, y: -20 }}
+                        initial={false}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{
-                            duration: 0.8,
+                            duration: 0.5, // Giảm thời gian animation
                             ease: "easeOut",
-                            delay: 0.2,
+                            delay: 0.1, // Giảm delay
                         }}>
                         Všechny chutě Asie
                     </motion.h1>
@@ -40,23 +40,23 @@ const HeroBanner = () => {
                         <div>
                             <motion.p
                                 className='text-gray-100 md:text-3xl text-lg font-medium'
-                                initial={{ opacity: 0, y: 10 }}
+                                initial={false}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{
-                                    duration: 0.8,
+                                    duration: 0.5, // Giảm thời gian animation
                                     ease: "easeOut",
-                                    delay: 0.4,
+                                    delay: 0.2, // Giảm delay
                                 }}>
                                 Tradiční receptury
                             </motion.p>
                             <motion.p
                                 className='pt-2 text-gray-100 md:text-xl'
-                                initial={{ opacity: 0, y: 10 }}
+                                initial={false}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{
-                                    duration: 0.8,
+                                    duration: 0.5, // Giảm thời gian animation
                                     ease: "easeOut",
-                                    delay: 0.4,
+                                    delay: 0.2, // Giảm delay
                                 }}>
                                 Přijďte na naše tradiční jídla, které znáte z
                                 Vietnamu, Číny, Japonska, Indie a Thajska.
@@ -65,23 +65,23 @@ const HeroBanner = () => {
                         <div>
                             <motion.p
                                 className='pt-5 text-gray-100 md:text-3xl text-lg font-medium'
-                                initial={{ opacity: 0, y: 10 }}
+                                initial={false}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{
-                                    duration: 0.8,
+                                    duration: 0.5, // Giảm thời gian animation
                                     ease: "easeOut",
-                                    delay: 0.4,
+                                    delay: 0.2, // Giảm delay
                                 }}>
                                 Autentické požitky
                             </motion.p>
                             <motion.p
                                 className='pt-2 text-gray-100 md:text-xl'
-                                initial={{ opacity: 0, y: 10 }}
+                                initial={false}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{
-                                    duration: 0.8,
+                                    duration: 0.5, // Giảm thời gian animation
                                     ease: "easeOut",
-                                    delay: 0.4,
+                                    delay: 0.2, // Giảm delay
                                 }}>
                                 Všechny chutě a vůně vychází z koření a umění
                                 našich šéfkuchařů.
@@ -99,7 +99,7 @@ const HeroBanner = () => {
                             delay: 0.6,
                         }}>
                         <Link to='/menu'>
-                            <button className='bg-red-500 text-white px-10 py-3 font-medium md:text-xl'>
+                            <button className='bg-red-600 text-white px-10 py-3 font-medium md:text-xl'>
                                 Menu
                             </button>
                         </Link>

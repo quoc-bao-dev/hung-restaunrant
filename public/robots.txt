@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /menu/main
+Disallow: /menu/sushi
+
+Allow: /
+
+Sitemap: https://yourwebsite.com/sitemap.xml

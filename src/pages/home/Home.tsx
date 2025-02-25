@@ -1,13 +1,15 @@
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { useLocation } from "react-router-dom";
 import { signature, signature2, signature3 } from "../../data/homeMenu";
 import { scrollToSection } from "../../utils/scroll";
-import AboutSection from "./AboutSection";
-import AddressSection from "./AddressSection";
-import ContactSection from "./ContactSection";
-import HeroBanner from "./HeroBanner";
-import MenuSection from "./MenuSection";
+import React from "react";
+import Loading from "../../components/common/Loading";
+const AboutSection = React.lazy(() => import("./AboutSection"));
+const AddressSection = React.lazy(() => import("./AddressSection"));
+const ContactSection = React.lazy(() => import("./ContactSection"));
+const HeroBanner = React.lazy(() => import("./HeroBanner"));
+const MenuSection = React.lazy(() => import("./MenuSection"));
 
 const Home = () => {
     const location = useLocation();
@@ -30,26 +32,40 @@ const Home = () => {
                     content="Domů HU'NG Restaurace s lahodným jídlem"
                 />
             </Helmet>
-            <HeroBanner />
-            <AboutSection />
-            <MenuSection
-                image='/images/banner-1.jpg'
-                title='Signature'
-                section={signature}
-            />
-            <MenuSection
-                image='/images/banner-2.jpg'
-                title='Hlavní chody'
-                section={signature2}
-                imagePosition='left'
-            />
-            <MenuSection
-                image='/images/banner-3.jpg'
-                title='Sushi'
-                section={signature3}
-            />
-            <AddressSection />
-            <ContactSection />
+            <Suspense fallback={<Loading />}>
+                <HeroBanner />
+            </Suspense>
+            <Suspense fallback={<Loading />}>
+                <AboutSection />
+            </Suspense>
+            <Suspense fallback={<Loading />}>
+                <MenuSection
+                    image='/images/banner-1.jpg'
+                    title='Signature'
+                    section={signature}
+                />
+            </Suspense>
+            <Suspense fallback={<Loading />}>
+                <MenuSection
+                    image='/images/banner-2.jpg'
+                    title='Hlavní chody'
+                    section={signature2}
+                    imagePosition='left'
+                />
+            </Suspense>
+            <Suspense fallback={<Loading />}>
+                <MenuSection
+                    image='/images/banner-3.jpg'
+                    title='Sushi'
+                    section={signature3}
+                />
+            </Suspense>
+            <Suspense fallback={<Loading />}>
+                <AddressSection />
+            </Suspense>
+            <Suspense fallback={<Loading />}>
+                <ContactSection />
+            </Suspense>
         </main>
     );
 };
