@@ -12,7 +12,7 @@ const Header = () => {
     const { setIsShowSideBar, isShowSideBar } = useSidebarContext();
 
     return (
-        <header className='fixed top-0 z-50 w-screen'>
+        <header className='fixed top-0 z-50 w-full'>
             <div className='h-[var(--header-height)] bg-bg-0 text-text-0'>
                 <Container>
                     <div className='relative flex justify-between h-full  items-center'>

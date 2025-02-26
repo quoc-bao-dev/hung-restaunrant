@@ -58,7 +58,12 @@ const ContactSection = () => {
                         {/* info */}
                         <div className='col-span-12 md:col-span-6'>
                             <h3 className='text-lg font-bold text-white text-center'>
-                                Hung Restaurace – Chuť Asie v srdci Česka
+                                <span className='truncate'>
+                                    Hung Restaurace
+                                </span>{" "}
+                                <span className='truncate'>
+                                    Chuť Asie v srdci Česka
+                                </span>
                             </h3>
                             <p className='pt-2 text-gray-400 text-sm text-justify'>
                                 Objevte tradiční vietnamskou, thajskou a
