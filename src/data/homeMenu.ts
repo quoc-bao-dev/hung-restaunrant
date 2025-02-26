@@ -118,7 +118,7 @@ export const signature3: {
 
         {
             foodName: "Nigiri Sushi",
-            description: "Sushi nắm với cơm bên dưới và lát hải sản tươi sống bên trên.",
+            description: "Sushi Nigiri s rýží dole a plátkem čerstvých mořských plodů nahoře.",
             menu: [
                 { foodName: "Nigiri losos", price: 160 },
                 { foodName: "Nigiri tuňak", price: 170 }
